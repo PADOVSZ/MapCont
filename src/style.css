@@ -1,0 +1,52 @@
+body {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    background: url('mapa_principal.jpg') no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+    font-family: 'Poppins', 'Arial';
+}
+#americaSul {
+    margin-top: 55vh;
+    margin-left: 29vw;
+}
+#americaNorte {
+    margin-top: 21vh;
+    margin-left: 16vw;
+}
+#americaCentral {
+    margin-top: 40vh;
+    margin-left: 20vw;
+}
+#africa {
+    margin-top: 45vh;
+    margin-left: 53vw;
+}
+#asia {
+    margin-top: 20vh;
+    margin-left: 70vw;
+}
+#antartida {
+    margin-top: 93vh;
+    margin-left: 45vw;
+}
+#oceania {
+    margin-top: 63vh;
+    margin-left: 86vw;
+}
+#europa {
+    margin-top: 18vh;
+    margin-left: 56vw;
+}
+.button {
+    position: fixed;
+    border: none;
+    background-color: transparent;
+    color: #FAF1A1;
+    font-size: 20px;
+}
+.button:hover{
+    cursor: pointer;
+}
