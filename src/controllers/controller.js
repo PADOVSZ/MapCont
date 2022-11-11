@@ -4,7 +4,7 @@ const cont = require('../models/continente')
 const Cont = db.Mongoose.model('esquemaConts', cont.contSchema, 'continente')
 
 exports.buscaraiz = ('/', async(req, res) => {
-    res.render('../../views/home')
+    res.render('home.ejs')
 })
 
 exports.getContinente = ('/continentes', async(req, res) => {
