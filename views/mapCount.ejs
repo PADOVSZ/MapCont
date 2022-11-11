@@ -22,10 +22,14 @@
         <button onclick="Fechar('#as')" class="x">X</button>
         <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
         <h1 class="title">América do Sul</h1>
-        <p>Clima:</p>
-        <p>Vegetação:</p>
-        <p>População:</p>
-        <p>Área:</p>
+        <!--Isso não funciona, é só um teste-->
+        <% continente.forEach((continente)=> { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Vegetação: <%= continente.Vegetacao %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %></p>
+        <%})%>
+        
     </div>
     <div class="content" id="an">
         <button onclick="Fechar('#an')" class="x">X</button>

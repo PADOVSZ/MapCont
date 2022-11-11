@@ -4,6 +4,6 @@ const controller = require('../controllers/controller.js')
 const router = express.Router()
 
 router.get('/', controller.buscaraiz)
-router.get('/continentes', controller.getContinente)
+router.get('/principal', controller.mapaprincipal)
 
 module.exports = router
