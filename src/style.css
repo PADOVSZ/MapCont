@@ -8,6 +8,7 @@ body {
     overflow: hidden;
     font-family: 'Poppins', 'Arial';
 }
+
 #americaSul {
     margin-top: 55vh;
     margin-left: 29vw;
@@ -40,13 +41,62 @@ body {
     margin-top: 18vh;
     margin-left: 56vw;
 }
-.button {
+
+.btn {
     position: fixed;
     border: none;
     background-color: transparent;
     color: #FAF1A1;
     font-size: 20px;
 }
-.button:hover{
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.content{
+    display: none;
+    background-color: #FAF1A1;
+    border-radius: 15px;
+    height: 400px;
+    width: 300px;
+    margin-left: 80%;
+    margin-right: 15px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+img{
+    width: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+p {
+    margin: 10px;
+}
+
+.title{
+    color: #46690C;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.x {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 99;
+    margin: 20px;
+    margin-left: 85%;
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 50%;
+}
+
+.x:hover {
     cursor: pointer;
 }

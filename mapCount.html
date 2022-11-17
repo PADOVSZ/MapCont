@@ -6,16 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image map</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./src/style.css">
 </head>
 <body>
-    <button class="button" id="americaSul">América do Sul</button>
-    <button class="button" id="americaNorte">América do Norte</button>
-    <button class="button" id="americaCentral">América Central</button>
-    <button class="button" id="africa">África</button>
-    <button class="button" id="asia">Ásia</button>
-    <button class="button" id="antartida">Antartida</button>
-    <button class="button" id="oceania">Oceania</button>
-    <button class="button" id="europa">Europa</button>
+    <button class="btn" id="americaSul" onclick="Mostrar('#as')">América do Sul</button>
+    <button class="btn" id="americaNorte" onclick="Mostrar('#an')">América do Norte</button>
+    <button class="btn" id="americaCentral" onclick="Mostrar('#ac')">América Central</button>
+    <button class="btn" id="africa" onclick="Mostrar('#af')">África</button>
+    <button class="btn" id="asia" onclick="Mostrar('#asi')">Ásia</button>
+    <button class="btn" id="antartida" onclick="Mostrar('#ant')">Antartida</button>
+    <button class="btn" id="oceania" onclick="Mostrar('#oce')">Oceania</button>
+    <button class="btn" id="europa" onclick="Mostrar('#eu')">Europa</button>
+
+    <div class="content" id="as">
+        <button onclick="Fechar('#as')" class="x">X</button>
+        <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+        <h1 class="title">América do Sul</h1>
+        <p>Clima:</p>
+        <p>Vegetação:</p>
+        <p>População:</p>
+        <p>Área:</p>
+    </div>
+    <div class="content" id="an">
+        <button onclick="Fechar('#an')" class="x">X</button>
+        <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+        <h1 class="title">América do Norte</h1>
+        <p>Clima:</p>
+        <p>Vegetação:</p>
+        <p>População:</p>
+        <p>Área:</p>
+</div>
+<div class="content" id="ac">
+    <button onclick="Fechar('#ac')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">América Central</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+<div class="content" id="af">
+    <button onclick="Fechar('#af')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">África</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+
+<div class="content" id="asi">
+    <button onclick="Fechar('#asi')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">Ásia</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+<div class="content" id="ant">
+    <button onclick="Fechar('#ant')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">Antártida</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+
+<div class="content" id="oce">
+    <button onclick="Fechar('#oce')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">Oceania</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+<div class="content" id="eu">
+    <button onclick="Fechar('#eu')" class="x">X</button>
+    <img src="https://blog.buson.com.br/wp-content/uploads/2018/06/shutterstock_265791809-1280x720.jpg" alt="América do Sul">
+    <h1 class="title">Europa</h1>
+    <p>Clima:</p>
+    <p>Vegetação:</p>
+    <p>População:</p>
+    <p>Área:</p>
+</div>
+    <script src="./src/script.js"></script>
 </body>
 </html>
