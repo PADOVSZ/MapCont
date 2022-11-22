@@ -7,7 +7,10 @@ exports.buscaraiz = ('/', async(req, res) => {
     res.render('home.ejs')
 })
 
-exports.mapaprincipal = ('/principal', async(req,res) => {
-    const continente = await Cont.find({}).lean().exec()
-    res.render('mapCount.ejs', { continente })
+exports.principal = ('/principal', async(req, res) => {
+    Cont.find({}, function(err, continentes) {
+        res.render('mapCount.ejs', {
+            continente: continentes
+        })
+    })
 })

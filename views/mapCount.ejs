@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image map</title>
+    <title>Map Cont</title>
+    <link rel="shortcut icon" type="image/png" href="../home/mapa.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./pricipal/style.css">
 </head>
@@ -23,80 +24,99 @@
         <button onclick="Fechar('#as')" class="x">X</button>
         <img src="https://liberal.com.br/wp-content/uploads/2020/09/capa-Monte-Roraima.jpg" alt="América do Sul">
         <h1 class="title">América do Sul</h1>
-        <!--Isso não funciona, é só um teste-->
-        <% continente.forEach((continente)=> { %>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "América do Sul") { %>
             <p>Clima: <%= continente.Clima %></p> 
-            <p>Vegetação: <%= continente.Vegetacao %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
             <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %></p>
-        <%})%>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
         
     </div>
+
     <div class="content" id="an">
         <button onclick="Fechar('#an')" class="x">X</button>
         <img src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/destino-america-do-norte-dicas.jpg" alt="América do Norte">
         <h1 class="title">América do Norte</h1>
-        <p>Clima:</p>
-        <p>Vegetação:</p>
-        <p>População:</p>
-        <p>Área:</p>
-</div>
-<div class="content" id="ac">
-    <button onclick="Fechar('#ac')" class="x">X</button>
-    <img src="https://www.lonelyplanet.de/fileadmin/media/lp/Magazin/Kundenspecials/2015/WikingerReisen/Wikinger_CostaRica_Aufmacher.jpg" alt="América Central">
-    <h1 class="title">América Central</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
-<div class="content" id="af">
-    <button onclick="Fechar('#af')" class="x">X</button>
-    <img src="https://www.colegioweb.com.br/wp-content/uploads/2014/07/savanas.jpg" alt="África">
-    <h1 class="title">África</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "América do Norte") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
 
-<div class="content" id="asi">
-    <button onclick="Fechar('#asi')" class="x">X</button>
-    <img src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/viagem-a-asia-740x360.jpg" alt="Ásia">
-    <h1 class="title">Ásia</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
-<div class="content" id="ant">
-    <button onclick="Fechar('#ant')" class="x">X</button>
-    <img src="https://www.icelandcampos.com.br/wp-content/uploads/2018/09/antartica2-870x480.jpg" alt="Antártida">
-    <h1 class="title">Antártida</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
+    <div class="content" id="ac">
+        <button onclick="Fechar('#ac')" class="x">X</button>
+        <img src="https://www.lonelyplanet.de/fileadmin/media/lp/Magazin/Kundenspecials/2015/WikingerReisen/Wikinger_CostaRica_Aufmacher.jpg" alt="América Central">
+        <h1 class="title">América Central</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "América Central") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
 
-<div class="content" id="oce">
-    <button onclick="Fechar('#oce')" class="x">X</button>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rk-bACcvR4LFBAPYZPn8LGtWmWRw5egntP7ImA5lF-B5LXLHXTrnAyaZ8J3ani3k5Zg&usqp=CAU" alt="Oceania">
-    <h1 class="title">Oceania</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
-<div class="content" id="eu">
-    <button onclick="Fechar('#eu')" class="x">X</button>
-    <img src="https://h2gconsulting.com/wp-content/uploads/2020/01/Espan%CC%83a-puerta-al-mercado-europeo-scaled-1-1200x675.jpg" alt="Europa">
-    <h1 class="title">Europa</h1>
-    <p>Clima:</p>
-    <p>Vegetação:</p>
-    <p>População:</p>
-    <p>Área:</p>
-</div>
+    <div class="content" id="af">
+        <button onclick="Fechar('#af')" class="x">X</button>
+        <img src="https://www.colegioweb.com.br/wp-content/uploads/2014/07/savanas.jpg" alt="África">
+        <h1 class="title">África</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "África") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
+
+    <div class="content" id="asi">
+        <button onclick="Fechar('#asi')" class="x">X</button>
+        <img src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/viagem-a-asia-740x360.jpg" alt="Ásia">
+        <h1 class="title">Ásia</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "Ásia") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
+
+    <div class="content" id="ant">
+        <button onclick="Fechar('#ant')" class="x">X</button>
+        <img src="https://www.icelandcampos.com.br/wp-content/uploads/2018/09/antartica2-870x480.jpg" alt="Antártida">
+        <h1 class="title">Antártida</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "Antártida") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
+
+    <div class="content" id="oce">
+        <button onclick="Fechar('#oce')" class="x">X</button>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rk-bACcvR4LFBAPYZPn8LGtWmWRw5egntP7ImA5lF-B5LXLHXTrnAyaZ8J3ani3k5Zg&usqp=CAU" alt="Oceania">
+        <h1 class="title">Oceania</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "Oceania") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
+
+    <div class="content" id="eu">
+        <button onclick="Fechar('#eu')" class="x">X</button>
+        <img src="https://h2gconsulting.com/wp-content/uploads/2020/01/Espan%CC%83a-puerta-al-mercado-europeo-scaled-1-1200x675.jpg" alt="Europa">
+        <h1 class="title">Europa</h1>
+        <% continente.forEach(continente => { if(continente.NomeContinente == "Europa") { %>
+            <p>Clima: <%= continente.Clima %></p> 
+            <p>Bioma: <%= continente.Bioma %></p> 
+            <p>População: <%= continente.Populacao %></p>
+            <p>Área: <%= continente.Area %> Km²</p>
+        <%}})%>
+    </div>
+
     <script src="./pricipal/script.js"></script>
 </body>
 </html>
