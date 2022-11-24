@@ -99,6 +99,20 @@ p {
     border-radius: 50%;
 }
 
+.btnAnterior {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 99;
+    margin: 20px;
+    margin-left: 70%;
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    border-radius: 50%;
+}
+
 .x:hover {
     cursor: pointer;
 }
