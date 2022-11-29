@@ -59,17 +59,16 @@ body {
     display: none;
     background-color: #FAF1A1;
     border-radius: 15px;
-    height: 400px;
-    width: 300px;
-    margin-left: 80%;
-    margin-right: 15px;
+    height: 150vh;
+    width: 60vw;
     margin-top: 50px;
+    margin-left: 20vw;
     position: absolute;
-    transition: all 5s linear
+    overflow-y: scroll;
 }
 
 img{
-    width: 300px;
+    width: 60vw;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
