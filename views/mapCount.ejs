@@ -22,63 +22,127 @@
 
     <div class="content" id="as">
         <button onclick="Fechar('#as')" class="x">X</button>
-        <button onclick="ImgAnterior('#as')" class="btnAnterior">n</button>
         <img id="image" src="https://liberal.com.br/wp-content/uploads/2020/09/capa-Monte-Roraima.jpg" alt="América do Sul">
         <h1 class="title">América do Sul</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "América do Sul") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
         
     </div>
 
     <div class="content" id="an">
         <button onclick="Fechar('#an')" class="x">X</button>
-        <img id="image" src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/destino-america-do-norte-dicas.jpg" alt="América do Norte">
+        <img id="image" src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-nova-york-capa2019-06.jpg" alt="América do Norte">
         <h1 class="title">América do Norte</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "América do Norte") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
     <div class="content" id="ac">
         <button onclick="Fechar('#ac')" class="x">X</button>
-        <img id="image" src="https://www.lonelyplanet.de/fileadmin/media/lp/Magazin/Kundenspecials/2015/WikingerReisen/Wikinger_CostaRica_Aufmacher.jpg" alt="América Central">
+        <img id="image" src="https://dialtour.files.wordpress.com/2014/05/costa-rica2.jpg" alt="América Central">
         <h1 class="title">América Central</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "América Central") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
     <div class="content" id="af">
         <button onclick="Fechar('#af')" class="x">X</button>
-        <img id="image" src="https://www.colegioweb.com.br/wp-content/uploads/2014/07/savanas.jpg" alt="África">
+        <img id="image" src="https://freesider.com.br/wp-content/uploads/2017/04/imagem-1.jpg" alt="África" draggable="false">
         <h1 class="title">África</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "África") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
     <div class="content" id="asi">
         <button onclick="Fechar('#asi')" class="x">X</button>
-        <img id="image" src="https://www.segurospromo.com.br/blog/wp-content/uploads/2019/07/viagem-a-asia-740x360.jpg" alt="Ásia">
+        <img id="image" src="https://static.wixstatic.com/media/96617e_206f89276a4544a2a9d154308f987d07~mv2.jpg/v1/fit/w_1000%2Ch_1000%2Cal_c%2Cq_80/file.jpg" alt="Ásia">
         <h1 class="title">Ásia</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "Ásia") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
@@ -87,22 +151,48 @@
         <img id="image" src="https://www.icelandcampos.com.br/wp-content/uploads/2018/09/antartica2-870x480.jpg" alt="Antártida">
         <h1 class="title">Antártida</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "Antártida") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
     <div class="content" id="oce">
         <button onclick="Fechar('#oce')" class="x">X</button>
-        <img id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rk-bACcvR4LFBAPYZPn8LGtWmWRw5egntP7ImA5lF-B5LXLHXTrnAyaZ8J3ani3k5Zg&usqp=CAU" alt="Oceania">
+        <img id="image" src="https://www.carpemundi.com.br/wp-content/uploads/2017/08/sydney-australia.jpg" alt="Oceania">
         <h1 class="title">Oceania</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "Oceania") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 
@@ -111,10 +201,23 @@
         <img id="image" src="https://h2gconsulting.com/wp-content/uploads/2020/01/Espan%CC%83a-puerta-al-mercado-europeo-scaled-1-1200x675.jpg" alt="Europa">
         <h1 class="title">Europa</h1>
         <% continente.forEach(continente => { if(continente.NomeContinente == "Europa") { %>
-            <p>Clima: <%= continente.Clima %></p> 
-            <p>Bioma: <%= continente.Bioma %></p> 
-            <p>População: <%= continente.Populacao %></p>
-            <p>Área: <%= continente.Area %> Km²</p>
+            <div class="clima_Veg">
+                <h2>Clima</h2> 
+                <p><%= continente.Clima %></p>
+            </div>
+            <div class="clima_Veg">
+                <h2>Vegetação</h2> 
+                <p><%= continente.Bioma %></p>
+            </div>
+            <div class="pop_Area">
+                <h2>Área</h2> 
+                <p><%= continente.Area %></p>
+                <button id="btnPontoTuristico">Conheça mais</button>
+            </div>
+            <div class="pop_Area">
+                <h2>População</h2> 
+                <p><%= continente.Populacao %></p>
+            </div>
         <%}})%>
     </div>
 

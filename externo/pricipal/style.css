@@ -57,18 +57,18 @@ body {
 
 .content{
     display: none;
-    background-color: #FAF1A1;
+    background-color: #faf1a1d7;
     border-radius: 15px;
-    height: 150vh;
-    width: 60vw;
-    margin-top: 50px;
-    margin-left: 20vw;
+    height: 90vh;
+    width: 70vw;
+    margin-top: 5vh;
+    margin-left: 15vw;
     position: absolute;
-    overflow-y: scroll;
 }
 
 img{
-    width: 60vw;
+    width: 70vw;
+    height: 50vh;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
@@ -79,33 +79,20 @@ p {
 
 .title{
     color: #46690C;
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
-    margin: 10px;
+    margin: 1.25vw;
+    margin-bottom: 0.3vw;
 }
 
 .x {
-    width: 25px;
-    height: 25px;
+    width: 28px;
+    height: 28px;
     position: absolute;
     z-index: 99;
     margin: 20px;
-    margin-left: 85%;
-    background-color: darkslateblue;
-    color: white;
-    font-weight: bold;
-    border: 0px;
-    border-radius: 50%;
-}
-
-.btnAnterior {
-    width: 25px;
-    height: 25px;
-    position: absolute;
-    z-index: 99;
-    margin: 20px;
-    margin-left: 70%;
-    background-color: darkslateblue;
+    margin-left: 67vw;
+    background-color: rgba(0, 0, 0, 0.534);
     color: white;
     font-weight: bold;
     border: 0px;
@@ -114,4 +101,38 @@ p {
 
 .x:hover {
     cursor: pointer;
+}
+
+h2{
+    padding: 3px;
+    margin: 3px;
+    color: #213009;
+    font-size: 20px;
+}
+
+.clima_Veg{
+    height: 200px;
+    width: 15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    float: left;
+}
+.pop_Area{
+    height: 200px;
+    width: 15vw;
+    margin-left: 1.25vw;
+    margin-right: 1.25vw;
+    float: right;
+}
+
+#btnPontoTuristico{
+    background-color:#45690c41;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    position: absolute;
+    margin: 15px;
 }
