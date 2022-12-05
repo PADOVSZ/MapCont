@@ -62,7 +62,6 @@ body {
 }
 
 .content{
-    display: none;
     background-color: #faf1a1d7;
     border-radius: 15px;
     height: 90vh;
@@ -70,6 +69,9 @@ body {
     margin-top: 5vh;
     margin-left: 15vw;
     position: absolute;
+    visibility: hidden;
+    transition: visibility 0s, opacity 0.3s linear;
+    opacity: 0;
 }
 
 img{
