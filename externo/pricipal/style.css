@@ -49,10 +49,16 @@ body {
     color: #FAF1A1;
     font-size: 20px;
     font-weight: bold;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .btn:hover{
     cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .content{
@@ -135,4 +141,16 @@ h2{
     padding: 5px;
     position: absolute;
     margin: 15px;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+#btnPontoTuristico:hover {
+    background-color: #213009;
+    color: white;
+    cursor: pointer;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }

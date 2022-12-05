@@ -50,6 +50,9 @@ body {
     position: absolute;
     top: 32px;
     right: 100px;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 a {
     text-decoration: none;
@@ -89,9 +92,15 @@ a:visited {
     position: absolute;
     bottom: 30px;
     right: 100px;
+    -moz-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
 }
 
 #btnSistemaSolar:hover, #btnMapCont:hover {
     background-color: white;
     cursor: pointer;
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
 }

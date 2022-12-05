@@ -1,6 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(3, 0, 32);
+    background-color: rgb(11, 4, 82);
   }
      
 .tudo {
@@ -10,7 +10,7 @@ body {
 }
   
 .ponto {
-    background-color: cornsilk;
+    background-color: #faf1a1d7;
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;

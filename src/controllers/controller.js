@@ -15,34 +15,34 @@ exports.principal = ('/principal', async(req, res) => {
     })
 })
 
-exports.cards = ('/principal/americadosulcard', async(req, res) => {
-    res.render('./cards/Cards_AmericaDoSul/Card_AmericaDoSul.html')
+exports.americaDoSul = ('/principal/americadosulcard', async(req, res) => {
+    res.render('./card_AmericaDoSul.ejs')
 })
 
-exports.cards = ('/principal/americadonortecard', async(req, res) => {
-    res.render('./cards/Cards_AmericaDoNorte/Card_AmericaDoNorte.html')
+exports.americaDoNorte = ('/principal/americadonortecard', async(req, res) => {
+    res.render('./card_AmericaDoNorte.ejs')
 })
 
-exports.cards = ('/principal/americacentralcard', async(req, res) => {
-    res.render('./cards/Cards_AmericaCentral/Card_AmericaCentral.html')
+exports.americaCentral = ('/principal/americacentralcard', async(req, res) => {
+    res.render('./card_AmericaCentral.ejs')
 })
 
-exports.cards = ('/principal/asiacard', async(req, res) => {
-    res.render('./cards/cards_Asia/card_Asia.html')
+exports.asia = ('/principal/asiacard', async(req, res) => {
+    res.render('./card_Asia.ejs')
 })
 
-exports.cards = ('/principal/africacard', async(req, res) => {
-    res.render('./cards/cards_Africa/card_Africa.html')
+exports.africa = ('/principal/africacard', async(req, res) => {
+    res.render('./card_Africa.ejs')
 })
 
-exports.cards = ('/principal/europacard', async(req, res) => {
-    res.render('./cards/cards_Europa/card_Europa.html')
+exports.europa = ('/principal/europacard', async(req, res) => {
+    res.render('./card_Europa.ejs')
 })
 
-exports.cards = ('/principal/antartidacard', async(req, res) => {
-    res.render('./cards/cards_Antartida/card_Antartida.html')
+exports.antartida = ('/principal/antartidacard', async(req, res) => {
+    res.render('./card_Antartida.ejs')
 })
 
-exports.cards = ('/principal/oceaniacard', async(req, res) => {
-    res.render('./cards/cards_Oceania/card_Oceania.html')
+exports.oceania = ('/principal/oceaniacard', async(req, res) => {
+    res.render('./card_Oceania.ejs')
 })
