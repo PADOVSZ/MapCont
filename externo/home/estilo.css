@@ -72,23 +72,7 @@ a:visited {
     left: 35%;
 }
 
-#btnSistemaSolar {
-    background-color: #FAF1A1;
-    font-size: 16px;
-    border-radius: 3px;
-    border: none;
-    width: 220px;
-    height: 40px;
-    padding: 5px;
-    position: absolute;
-    bottom: 30px;
-    right: 100px;
-    -moz-transition: all 0.4s;
-    -webkit-transition: all 0.4s;
-    transition: all 0.4s;
-}
-
-#btnSistemaSolar:hover, #btnMapCont:hover {
+#btnMapCont:hover {
     background-color: white;
     cursor: pointer;
     -webkit-transform: scale(0.9);
